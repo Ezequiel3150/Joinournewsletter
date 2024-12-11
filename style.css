@@ -1,29 +1,63 @@
 body {
-  background-color: rgb(148, 96, 96);
+  background-color: #f9fafb;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   font-family: "Sora";
+  flex-direction: column;
 }
 
 .cuerpo {
-  width: 475px;
+  width: 52%;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  color: #6c727f;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000000;
 }
 
-form{
-  display: inline;
-  justify-content: center;
-  padding: 16px;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 39%;
+
+  padding: 20px;
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03),
     0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+  font-size: 0.875rem;
+  color: #ffffff;
 }
 
 input {
-  display: block;
+  display: inline-block;
   width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #394150;
 }
-button{
-    display: block;
-    width: 100%;
+button {
+  display: inline-block;
+  background-color: #284bce;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  font-weight: 600;
 }
